@@ -1,0 +1,17 @@
+PyQt6==6.5.2
+PyQt6-Qt6==6.5.2
+PyQt6-sip==13.5.2
+tensorflow==2.10.0
+tensorflow-directml-plugin==0.4.0.dev230202
+numpy==1.23.5
+opencv-python==4.7.0.72
+Pillow==9.4.0
+scikit-learn==1.2.2
+scipy==1.10.1
+mss==9.0.1
+pytesseract==0.3.10
+pywin32==306
+pyautogui==0.9.54
+pynput==1.7.6
+psutil==5.9.5
+pyqtgraph==0.13.3

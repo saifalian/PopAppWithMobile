@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+
+# Runtime and generated model data
+data/
+models/
+*.log
+trace.txt
+replay_pid*.log
+hs_err_pid*.log
+*.mp4
+*.npz
+*.npy
+*.pb
+*.tempstate*
+
+# OS files
+.DS_Store
+Thumbs.db
+

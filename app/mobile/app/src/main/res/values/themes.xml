@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ModelFactoryMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/accent_purple</item>
+        <item name="android:windowBackground">@color/bg_darkest</item>
+        <item name="android:statusBarColor">@color/bg_darkest</item>
+    </style>
+</resources>
