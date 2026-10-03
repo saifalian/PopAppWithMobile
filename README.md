@@ -1,17 +1,20 @@
 # Pop App With Mobile
 
-Pop App With Mobile is a mixed Python and Android automation/modeling project. It includes a desktop-facing Python app, backend vision/video modules, macro data structures, trained model artifacts, and an Android mobile subproject under `app/mobile`.
+Pop App With Mobile is a mixed Python and Android project.
 
-The repository is configured to keep source code in Git while excluding generated model files, recordings, logs, virtual environments, and build output.
+In simple words, this project contains a desktop-style Python app, backend vision tools, video processing files, macro/model work, and an Android mobile app inside `app/mobile`.
 
-## Features
+The project is set up so source code can be uploaded to GitHub while large generated files, recordings, logs, virtual environments, and build output stay out of Git.
 
-- Python main launcher and settings
-- Backend vision modules for screen capture, OCR, heatmaps, goal matching, and cluster detection
-- Video processing module
-- Macro and model-oriented workflow files
-- Android mobile app module
-- Batch launcher for local startup
+## What This Project Can Do
+
+- Run from a Python main launcher.
+- Use backend vision modules.
+- Work with screen capture, OCR, heatmaps, goal matching, and cluster detection.
+- Include video processing code.
+- Store macro and model workflow files.
+- Include an Android mobile app module.
+- Start locally with a batch launcher.
 
 ## Tech Stack
 
@@ -46,5 +49,6 @@ Open `app/mobile` in Android Studio to work on the mobile component.
 
 ## Notes
 
-Large generated model outputs, extracted frames, recordings, and logs are excluded from Git. Keep those artifacts in local storage or a release/artifact system instead of the source repository.
+Large model outputs, extracted frames, recordings, and logs are excluded from Git.
 
+Keep those files in local storage or another artifact system instead of saving them directly in the source repository.
