@@ -1,6 +1,5 @@
 # Pop App With Mobile
 
-![Pop App With Mobile preview](docs/screenshots/preview.svg)
 
 ## Short Description
 
@@ -25,10 +24,6 @@ The goal is to keep the project easy to understand, easy to run, and useful for 
 ### Real extracted chart frame
 
 ![Real extracted chart frame](docs/screenshots/real-chart-frame.png)
-
-### Project preview
-
-![Project preview](docs/screenshots/preview.svg)
 
 ## Main Features
 
