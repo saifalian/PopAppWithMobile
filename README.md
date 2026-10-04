@@ -12,6 +12,24 @@ Pop App With Mobile combines a Python desktop-style app, backend vision/video to
 
 The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
 
+## Purpose And Idea
+
+**Purpose:** The purpose of this project is to combine a Python desktop app, backend vision/video tools, macro workflows, and an Android mobile module.
+
+**Idea:** The idea is to test workflows where desktop vision tools and mobile app code can exist in one project.
+
+**Why I made it:** I made this to explore how automation, video/image processing, model data, and mobile development can connect.
+
+## Screenshots
+
+### Real extracted chart frame
+
+![Real extracted chart frame](docs/screenshots/real-chart-frame.png)
+
+### Project preview
+
+![Project preview](docs/screenshots/preview.svg)
+
 ## Main Features
 
 - Python main launcher
@@ -58,10 +76,6 @@ settings.json  Local settings
 3. Run python main.py.
 4. Open app/mobile in Android Studio for the mobile part.
 5. Keep generated recordings and model data out of Git.
-
-## Screenshot
-
-The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
 ## Current Status
 
