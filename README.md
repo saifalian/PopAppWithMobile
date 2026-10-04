@@ -1,54 +1,76 @@
 # Pop App With Mobile
 
-Pop App With Mobile is a mixed Python and Android project.
+![Pop App With Mobile preview](docs/screenshots/preview.svg)
 
-In simple words, this project contains a desktop-style Python app, backend vision tools, video processing files, macro/model work, and an Android mobile app inside `app/mobile`.
+## Short Description
 
-The project is set up so source code can be uploaded to GitHub while large generated files, recordings, logs, virtual environments, and build output stay out of Git.
+A mixed desktop and mobile project with vision tools, macro work, and Android code.
 
-## What This Project Can Do
+## About This Project
 
-- Run from a Python main launcher.
-- Use backend vision modules.
-- Work with screen capture, OCR, heatmaps, goal matching, and cluster detection.
-- Include video processing code.
-- Store macro and model workflow files.
-- Include an Android mobile app module.
-- Start locally with a batch launcher.
+Pop App With Mobile combines a Python desktop-style app, backend vision/video tools, macro/model workflow files, and an Android mobile app inside app/mobile.
+
+The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
+
+## Main Features
+
+- Python main launcher
+- Desktop-style app modules
+- Backend vision and video processing
+- Screen capture, OCR, heatmap, and goal matching code
+- Macro/model workflow files
+- Android mobile app module
 
 ## Tech Stack
 
 - Python
-- Computer vision / OCR modules
-- Android Gradle project
-- Local JSON settings and macro definitions
+- Computer vision
+- Video processing
+- Android module
+- JSON settings
 
-## Project Layout
+## Project Location
+
+Main local folder:
 
 ```text
-backend/
-├── video/
-└── vision/
-app/mobile/
-main.py
-settings.json
-requirements.txt
-start_model_factory.bat
+D:\PROJECTS\PopAppWithMobile
 ```
 
-## Setup
+GitHub repository:
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python main.py
+https://github.com/saifalian/PopAppWithMobile
+
+## Project Structure
+
+```text
+app/           Python app and Android mobile folder
+backend/       Vision, video, desktop, macro, and database modules
+data/          Local macro/model data
+main.py        Main launcher
+settings.json  Local settings
 ```
 
-Open `app/mobile` in Android Studio to work on the mobile component.
+## How To Run
 
-## Notes
+1. Create a Python virtual environment.
+2. Install requirements.txt.
+3. Run python main.py.
+4. Open app/mobile in Android Studio for the mobile part.
+5. Keep generated recordings and model data out of Git.
 
-Large model outputs, extracted frames, recordings, and logs are excluded from Git.
+## Screenshot
 
-Keep those files in local storage or another artifact system instead of saving them directly in the source repository.
+The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
+
+## Current Status
+
+This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
+
+## Safety Note
+
+Keep large generated files out of the repository and test automation features on safe data first.
+
+## License
+
+No license file is included yet. Add a license before using this project as an open-source project.
